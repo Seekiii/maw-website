@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+	background: linear-gradient(215deg, rgba(110, 109, 109, 1) 0%, rgba(55, 60, 74, 1) 100%);
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+}
+
+.box {
+	width: 400px;
+    background: rgba(147, 145, 145, 0.07);
+    border: 4px solid rgba(147, 145, 145, 0.25);
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px #00000010;
+}
+
+img.logo {
+	border-radius: 100%;
+	width: 140px;
+	border: 3px solid #c3bebe;
+}
+
+h1 {
+	font-size: 40px;
+	color: #ebe9e9;
+	font-weight: 600;
+}
+
+p {
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+	color: rgba(147, 145, 145, 0.79);
+}
+
+.btns {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.btns a {
+	width: 45%;
+	min-height: 33px;
+	background: #919193;
+	font-weight: 400;
+	border-radius: 1px;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	transition: 0.1s;
+	border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+a.dc {
+	background: #7289da;
+}
+
+a:hover {
+	filter: brightness(1.1);
+}
+
+a i {
+	margin-right: 5px;
+	font-size: 13px;
+	display: flex;
+}
+
+.tgg {
+	margin-bottom: 12px;
+}

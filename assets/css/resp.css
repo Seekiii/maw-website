@@ -1,0 +1,12 @@
+@media screen and (max-width: 470px) {
+  .box{
+    width: 80%;
+  }
+  .btns a{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .btns{
+    flex-direction: column;
+  }
+}

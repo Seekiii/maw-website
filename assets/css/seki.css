@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline: 0;
+	text-decoration: none;
+	line-height: inherit;
+	vertical-align: inherit;
+}
+.s-flex{display: flex;}
+.s-flex-right{display: flex;justify-content: flex-end;}
+.s-flex-right-top, .s-flex-top-right{display: flex;justify-content: flex-end;align-items: flex-start;}
+.s-flex-right-center, .s-flex-center-right{display: flex;justify-content: flex-end;align-items: center;}
+.s-flex-right-bottom, .s-flex-bottom-right{display: flex;justify-content: flex-end;align-items: flex-end;}
+.s-flex-left{display: flex;justify-content: flex-start;}
+.s-flex-left-top, .s-flex-top-left{display: flex;justify-content: flex-start;align-items: flex-start;}
+.s-flex-left-center, .s-flex-center-left{display: flex;justify-content: flex-start;align-items: center;}
+.s-flex-left-bottom, .s-flex-bottom-left{display: flex;justify-content: flex-start;align-items: flex-end;}
+.s-flex-center{display: flex;justify-content: center;}
+.s-flex-center-top, .s-flex-top-center{display: flex;justify-content: center;align-items: flex-start;}
+.s-flex-center-center{display: flex;justify-content: center;align-items: center;}
+.s-flex-center-bottom, .s-flex-bottom-center{display: flex;justify-content: center;align-items: flex-end;}
+.s-flex-between{display: flex;justify-content: space-between;}
+.s-flex-between-top, .s-flex-top-between{display: flex;justify-content: space-between;align-items: flex-start;}
+.s-flex-between-center, .s-flex-center-between{display: flex;justify-content: space-between;align-items: center;}
+.s-flex-between-bottom, .s-flex-bottom-between{display: flex;justify-content: space-between;align-items: flex-end;}
+.s-flex-evenly{display: flex;justify-content: space-evenly;}
+.s-flex-evenly-top, .s-flex-top-evenly{display: flex;justify-content: space-evenly;align-items: flex-start;}
+.s-flex-evenly-center, .s-flex-center-evenly{display: flex;justify-content: space-evenly;align-items: center;}
+.s-flex-evenly-bottom, .s-flex-bottom-evenly{display: flex;justify-content: space-evenly;align-items: flex-end;}
+.s-flex-column{display: flex;flex-direction: column;}
+.s-flex-wrap{flex-wrap: wrap;}
+.s-fullW{width: 100%;}
+.s-fullH{height: 100%;}
+.s-fullVW{width: 100vw;}
+.s-fullVH{height: 100vh;}
